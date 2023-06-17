@@ -1,0 +1,39 @@
+.App {
+  width: 500px;
+  margin: auto;
+}
+
+li {
+  list-style: none;
+  padding: 5px 0;
+}
+
+.query-input {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.query-input input {
+  width: 200px;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-item-action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.list-item-action input,
+.list-item-action button {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
