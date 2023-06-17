@@ -15,7 +15,6 @@ class TodoController {
       });
 
       const todo = await doc.save();
-
       res.json(todo);
     } catch (error) {
       res.json({
