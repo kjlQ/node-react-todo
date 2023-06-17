@@ -1,5 +1,4 @@
 # node-react-todo
-# nodejs-person-post app
 
 This application allows you to create/get/update/delete your todos.
 
